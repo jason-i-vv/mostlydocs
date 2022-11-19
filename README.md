@@ -34,6 +34,18 @@ Otherwise it all works just like any other Docsy site.
 
 To use this for yourself, make a copy of this template project and change `content/en` as needed (don't forget to run `git submodule update --init --recursive` to fetch the theme and its dependencies).
 
+## Get Started
+
+First : update submodule `theme/docsy`.
+```shell
+git submodule update --init --recursive --depth 1
+```
+Second : start hugo .
+```shell
+hugo serve
+```
+
+Then you can access `http://localhost:1313`.
 ## Taxonomy Support
 
 Taxonomies such as tags and categories work in the same way as they do with Docsy.  They are disabled by default. 
